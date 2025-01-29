@@ -44,14 +44,14 @@
           &kp TAB      &kp Q     &kp W   &kp E     &kp R   &kp T            &none                                                                           &none   &kp Y     &kp U      &kp I    &kp O      &kp P   &kp BSPC
      &mt LCMD ESC      &kp A     &kp S   &kp D     &kp F   &kp G            &none      &kp LCTRL  &kp LALT                         &kp LGUI  &kp RCTRL      &none   &kp H     &kp J      &kp K    &kp L   &kp SEMI    &kp SQT
         &kp LSHFT      &kp Z     &kp X   &kp C     &kp V   &kp B                                  &kp HOME                       &kp INSERT                         &kp N     &kp M  &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
- &kp LEFT_CONTROL  &kp GRAVE  &kp DOWN  &kp UP  &kp LALT                    &mo 1  &kp BACKSPACE   &kp END                  &kp PAUSE_BREAK  &kp ENTER  &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT      &mo 2
+ &kp LEFT_CONTROL  &kp GRAVE  &kp DOWN  &kp UP  &kp LCMD                    &mo 1  &kp BACKSPACE   &kp END                  &kp PAUSE_BREAK  &kp ENTER  &kp SPACE          &kp LEFT   &kp DOWN   &kp UP  &kp RIGHT      &mo 2
             >;
         };
 
         layer_symbols {
             bindings = <
  &kp PRINTSCREEN      &kp F1     &kp F2    &kp F3      &kp F4         &kp F5            &kp F6                                                             &none     &kp F7    &kp F8    &kp F9    &kp F10    &kp F11       &kp F12
-     &kp LG(TAB)    &kp EXCL     &kp AT  &kp HASH  &kp DOLLAR    &kp PERCENT             &none                                                             &none  &kp CARET  &kp AMPS  &kp STAR  &kp MINUS   &kp PLUS  &kp LC(BSPC)
+          &kp LS    &kp EXCL     &kp AT  &kp HASH  &kp DOLLAR    &kp PERCENT             &none                                                             &none  &kp CARET  &kp AMPS  &kp STAR  &kp MINUS   &kp PLUS  &kp LC(BSPC)
        &kp LCTRL    &kp PIPE  &kp COLON  &kp LBRC    &kp RBRC  &kp BACKSLASH             &none  &kp LCTRL  &kp LALT                  &kp LGUI  &kp RCTRL   &none  &kp SLASH  &kp LPAR  &kp RPAR  &kp UNDER  &kp EQUAL       &kp DQT
        &kp LSHFT      &trans  &kp TILDE    &kp LT      &kp GT         &trans                                 &trans                    &trans                        &trans  &kp LBKT  &kp RBKT     &trans     &trans     &kp RSHFT
         &kp LGUI  &caps_word     &trans    &trans       &mo 2                           &trans     &trans    &trans                    &trans     &trans  &trans               &trans    &trans     &trans     &trans         &mo 2
